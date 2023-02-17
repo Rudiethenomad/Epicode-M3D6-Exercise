@@ -322,7 +322,7 @@
     <div class="table-responsive">                                                      
         
                                     
-        <table class="table table-striped table-light tbl2">
+        <table class="table table-striped table-light tbl-2">
           <thead>
             <tr>
                 <th>Track</th>
@@ -348,18 +348,48 @@
                 <td>4:15</td>
                 <td><button type="button" class="btn btn-danger">Delete</button></td>
               </tr>
-              <tr>
+              <tr id="strw3">
                 <td>3</td>
                 <td>Lithium</td>
                 <td>Nirvana</td>
                 <td>4:17</td>
-                <td><button type="button" class="btn btn-danger" onclick="myFunction()">Delete</button></td>
+                <td><button type="button" class="btn btn-danger deleteRow">Delete</button></td>
               </tr>
               <tr>
                 <td>
-                    <button class="btn btn-primary btn-sm rounded-0 add-btn" type="button" data-toggle="tooltip" data-placement="top" title="Add"><i class="fa fa-table"></i>Add Track</button>
+                    <button class="btn btn-primary btn-sm rounded-0 add-btn" type="button" data-toggle="modal" data-target="#exampleModal" title="Add"><i class="fa fa-table"></i>Add Track</button>
                   
                 </td>
+                <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Add Tracks</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
               </tr>
                 
           </tbody>
@@ -371,7 +401,7 @@
 </div>
 </div>
 <hr>
-<script src="index.js"></script>
+
     <script src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
