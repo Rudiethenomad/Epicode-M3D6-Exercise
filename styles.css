@@ -52,6 +52,9 @@ align-content:flex-end ;
 img{
 height: 400px;
 }
+h3{
+    text-align: center;
+}
 h4{
 text-align: center;
 }
