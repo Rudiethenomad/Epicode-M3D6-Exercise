@@ -14,8 +14,12 @@ display: flex;
 justify-content: flex-end;
 
 }
+.first-box{
+    flex-wrap: wrap;
+}
 .fav-album{
 display:flex;
+flex-wrap: wrap;
 justify-content: center;
 
 
@@ -75,15 +79,17 @@ color:rgb(33, 33, 195); ;
 color: rgb(33, 33, 195);
 width: 40%;
 border: solid;
+background-color: antiquewhite;
 }
 .second-table{
     color: rgb(33, 33, 195);
     width: 40%;
     border: solid;
     margin-left: 219px;
+    background-color: antiquewhite;
     
-
 }
+
 tr{
 color:rgb(33, 33, 195);
 }
