@@ -116,3 +116,7 @@ color: rgb(33, 33, 195);
   .add-btn{
     
   }
+  .add-btn:hover{
+    box-shadow: 0px 5px 5px 5px rgb(244, 210, 166);
+    transition: 500ms;
+  }
