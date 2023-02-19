@@ -103,6 +103,10 @@ color: rgb(33, 33, 195);
 }
 .jbt{
     margin-top: 20px;
+    color:azure;
+}
+h1{
+    color:azure;
 }
 .jumbotron {
     background-image:  url("musicfest.jpg");
